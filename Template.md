@@ -1,12 +1,12 @@
-## Team Name 
-## Project Name
+## Team Name The tech squirtles
+## Project Name bizwiz
 
 
-## Domain
+## Domain fintech
 
 
 
-## Link to your repository
+## Link to your repository https://github.com/sabyasachimohantty/BizWiz.git
 
 
 ## About Project
@@ -25,7 +25,7 @@
 ## Use Cases of your project
 
 
-## Team Members
+## Team Members sabyasachi moohanty,sahil mohapatra, suvesh samantray
 
 
 ## References
