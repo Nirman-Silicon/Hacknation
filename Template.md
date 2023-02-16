@@ -36,13 +36,13 @@ C , C++ , Arduino IDE
 
 
 ## Team Members
-Krishna Pandey
-Adarsh Kumar
-Aman Kumar
+Krishna Pandey,
+Adarsh Kumar,
+Aman Kumar,
 Niharika Anand
 
 
 ## References
-circuit desigend at circuito.io
-code at dev c  
+circuit desigend at circuito.io,
+code at dev c  ,
 Presentation on Canva
