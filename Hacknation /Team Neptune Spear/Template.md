@@ -1,8 +1,8 @@
-## Team Name Team Neptune Spear
-## Project Name Agriculture & Disaster Mangement Programme 
+## Team Name :  Team Neptune Spear
+## Project Name : Agriculture & Disaster Mangement Programme 
 
 
-## Domain Open Innovation
+## Domain : Open Innovation
 
 
 
