@@ -1,6 +1,6 @@
 import React, { useContext, useEffect } from "react";
 import PropTypes from 'prop-types'
-import style from "./css/Card.module.css";
+import style from "./style/Card.module.css";
 import urlContext from "../context/api_url/urlContext";
 import { Link, useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
