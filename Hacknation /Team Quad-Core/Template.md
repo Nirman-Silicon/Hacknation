@@ -1,4 +1,5 @@
 ## Team Name 
+Quad-core
 ## Project Name
 *NAKSHA*
 
