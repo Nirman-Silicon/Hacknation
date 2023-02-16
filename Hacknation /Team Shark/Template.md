@@ -62,6 +62,8 @@ Manash Modi
 
 
 ## References
-SIT Website
+SIT Website: https://silicon.ac.in/bbsr-home/
 
-Bootstrap
+Bootstrap: https://bootstrapdocs.com/v3.0.3/docs/getting-started/
+
+PHP: https://www.php.net/
