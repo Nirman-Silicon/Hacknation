@@ -38,13 +38,15 @@ BOOTSTRAP
  
 
 ## Use Cases of your project
-Website for all information related to sports
+Secure login and registration for administrators, coaches, and players.
 
-Get update about all upcoming events
+Ability to manage multiple clubs and teams.
 
-Secure Login of Admin
+Create and manage games, schedules, and events.
 
-Know the past records and achievements  of our college
+Website for all information related to sports.
+
+Know the past records and achievements  of our college.
 
 
 
