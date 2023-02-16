@@ -51,20 +51,6 @@ export default function Card(props) {
       insertCart(foodID);
     }
 
-    // if (localCart.includes(foodID)) {
-    //   // dispatch(actionCreaters.setCart([...localCart, {_id: foodID, quantity: 1}]))
-    //   console.log("localCart");
-
-    //   fetch(url, {
-    //     method: 'PUT',
-    //     headers: {
-    //       'Accept': '*/*',
-    //       "Content-Type": "application/json",
-    //       'authToken': localStorage.getItem('authToken')
-    //     },
-    //     body: `{"items":${JSON.stringify([{ _id: foodID, quantity: 1 }, ...localCart])}}`
-    //   });
-    // }
   }
 
 

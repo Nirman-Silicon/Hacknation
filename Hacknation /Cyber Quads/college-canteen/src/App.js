@@ -5,14 +5,14 @@ import Grid from './components/Grid';
 import Signup from './components/Signup';
 import Cart from './components/Cart';
 import Order from './components/Order';
-// import Login from './components/Login';
+import Login from './components/Login';
 import Root from './components/Root';
-// import Product from './components/Product';
+import Product from './components/Product';
 import { useDispatch } from 'react-redux';
 import { actionCreaters } from "./state/index";
 import { useContext, useEffect } from 'react';
 import NotFound from './components/NotFound';
-// import Profile from './components/Profile';
+import Profile from './components/Profile';
 import urlContext from './context/api_url/urlContext';
 
 function App() {
@@ -50,10 +50,10 @@ function App() {
           <Route path="/home" element={<Grid />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/order" element={<Order />} />
-          {/* <Route path="/login" element={<Login />} />
+          <Route path="/login" element={<Login />} />
           <Route path="/profile" element={<Profile />} />
           <Route path="/profile/:user" element={<Profile />} />
-          <Route path="/product/:id" element={<Product />} /> */}
+          <Route path="/product/:id" element={<Product />} />
           <Route path="/*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
