@@ -28,8 +28,8 @@ Unclaimed provides users with unique QR codes for each object of the user. This 
 - React.js
 - Bootstrap
 - Firebase
-- Flask
 - Python
+- Flask
 - Solidity
 - Django
  
@@ -41,7 +41,7 @@ Unclaimed provides users with unique QR codes for each object of the user. This 
 - Secured by the use of Web3 Tech to further enhance security and future innovations of project.
 
 ## Team Members
-- Anil kumar Behera
+- Anil Kumar Behera
 - Nitin Mishra
 - Subhasish Behera
 - Tanisha Pattnaik
