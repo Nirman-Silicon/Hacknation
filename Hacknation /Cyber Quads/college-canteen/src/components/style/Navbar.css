@@ -1,0 +1,171 @@
+:root {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.1rem;
+}
+
+.sticky-nav {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.navbar {
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(66, 66, 66);
+    color: white;
+}
+
+.nav-ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin: 0px;
+}
+
+
+
+/* for search part */
+
+#search-area {
+    margin: 10px;
+    padding: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 33px;
+    align-self: center;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#search-bar {
+    /* padding: 9px; */
+    padding-bottom: 4px;
+    margin: 0px;
+    font-size: 16px;
+    border: 0px;
+    border-radius: 10px;
+    /* background-color: brown; */
+}
+
+#search-bar:focus {
+    outline: none;
+}
+
+#search-icon {
+    padding-top: 6px;
+    height: 30px;
+    transition: 0.1s;
+}
+
+#search-icon:hover {
+    transform: scale(0.9);
+    /* filter: invert(); */
+}
+
+/* right part of navbar */
+#right {
+    padding-left: 0px;
+}
+
+#right li {
+    border-radius: 10px;
+}
+
+#right li:hover {
+    background-color: black;
+}
+
+.theme img {
+    filter: invert();
+    scale: 0.7;
+}
+
+#profile {
+    filter: invert();
+    margin: 0px 10px;
+    padding: 10px;
+}
+
+#cart {
+    filter: invert();
+    margin: 0px 10px;
+    padding: 10px;
+}
+
+.cartSize {
+    position: relative;
+    top: 0%;
+    bottom: 27px;
+    right: 18px;
+}
+
+#right li a {
+    text-decoration: none;
+}
+
+#login {
+    margin: 0px 10px;
+    padding: 15px;
+    color: white;
+}
+
+/* left part of navbar */
+#left {
+    padding: 0px;
+}
+
+#fclogo {
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-top: 7px;
+}
+
+#fc {
+    margin: 0px 10px;
+    color: white;
+}
+
+#left li a {
+    text-decoration: none;
+}
+
+/* classes to be added later by javascript */
+/* .black-bg {
+    background-color: black;
+}
+
+.no-scroll {
+    overflow: hidden;
+} */
+
+
+/* removing search bar */
+@media screen and (max-width:600px) {
+    #search-bar {
+        display: none;
+    }
+
+    #search-area {
+        background-color: rgb(66, 66, 66);
+    }
+
+    #search-icon {
+        filter: invert(100%);
+    }
+}
+
+
+
+/* for changing theme */
+.background-dark{
+    background-color: rgb(100,100,100);
+    color: white;
+    /* background-image: linear-gradient(320deg, #272f2f,#3d313d); */
+}
