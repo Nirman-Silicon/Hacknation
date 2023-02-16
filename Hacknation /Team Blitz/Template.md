@@ -6,7 +6,7 @@
 
 
 
-## https://github.com/chandrachurd2004/Hacknation.git
+## https://github.com/chandrachurd2004/hacknation_team_blitz.git
 
 
 ## We are planing for sustainable development and conserve the usage of water in household
