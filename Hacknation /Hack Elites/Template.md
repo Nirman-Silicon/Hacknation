@@ -46,10 +46,10 @@ This application also provides real time access to:
 
 ## Team Members
 
-Jahnavi Lenka
-Purnamita Baral
-Kalinga Kumar Khatua
-Suraj Patra
+* Jahnavi Lenka
+* Purnamita Baral
+* Kalinga Kumar Khatua
+* Suraj Patra
 
 ## References
 
