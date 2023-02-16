@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+</head>
+<body style="background-color: rgb(225, 221, 221);">
+    <h1><center>Image Gallery</center></h1>
+    <!-- The grid: four columns -->
+<div class="row">
+  <div class="column">
+    <center>
+    <img src="pic2.png" alt="Nature" onclick="myFunction(this);">
+</center> <br>
+  </div>
+  <div class="column">
+    <center><img src="pic5.png" alt="Snow" onclick="myFunction(this);"></center> <br>
+  </div>
+  <div class="column">
+    <center><img src="pic1.png" alt="Mountains" onclick="myFunction(this);"></center> <br>
+  </div>
+  <div class="column">
+    <center><img src="pic4.png" alt="Lights" onclick="myFunction(this);"></center> <br>
+  </div>
+  <div class="column">
+    <center>
+    <img src="pic3.png" alt="Nature" onclick="myFunction(this);">
+</center> <br>
+  </div>
+  <div class="column">
+    <center>
+    <img src="pic6.png" alt="Nature" onclick="myFunction(this);">
+</center> <br>
+  </div>
+</div>
+
+<!-- The expanding image container -->
+<div class="container">
+  <!-- Close the image -->
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+  <!-- Expanded image -->
+  <img id="expandedImg" style="width:100%">
+
+  <!-- Image text -->
+  <div id="imgtext"></div>
+</div>
+    
+</body>
+</html>
