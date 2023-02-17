@@ -2,7 +2,14 @@
 * {
     box-sizing: border-box;
 }
+/* .back_img{
+	opacity: 0.5;
+} */
 body{
+	/* background-image: url(background.jpg); */
+  background: url(news/background1.png) ;
+  /* opacity: 0.5; */
+	image-resolution: 0.3;
     margin: 0;
     font-family: "Poppins", sans-serif;
     background-color: linear-gradiet(300deg, #757b87, #909d9d);
@@ -110,7 +117,7 @@ body{
 
 
 .donation-container {
-	height: 1000px;
+	height: 66vh;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 500;
 	font-size: 12px;
@@ -147,14 +154,13 @@ body{
 	font-size: 28px;
 }
 
-.donation-box .donate-button {
+.donation-box .donate-button >a{
 	background-color: #008000;
 	width: 100%;
 	color: white;
 	text-align: center;
-	/* padding-top: 12px;
-	padding-bottom: 12px; */
-	font-size: 18px;
+	font-size: 21px;
+    padding: 10px;
 	bottom: 0px;
 	position: absolute;
 	cursor: pointer;
@@ -696,11 +702,12 @@ span {
   margin: auto;
   place-content: center;
   padding: 2rem;
+  width: 100%;
   gap: 1rem;
+  background-color: wheat;
   border-radius: 0.4rem;
   /* border: 1px dashed gray; */
 }
-
 /* F.A.Q ---------------------------------------------- */
 
 .faq-accordion {
@@ -762,3 +769,25 @@ span {
 html{
 	scroll-behavior: smooth;
 }
+
+.flex-container {
+	width: 22%;
+	align-items: center;
+	/* height: 9%; */
+	display: flex;
+	flex-direction: column;
+	background-color: DodgerBlue;
+  }
+  
+  .flex-container > ul > li {
+	color: white;
+	font-weight: 500;
+	/* background-color: #f1f1f1; */
+	width: 82%;
+	margin: 7px;
+	text-align: left;
+	/* line-height: 75px; */
+	font-size: 14px;
+	text-transform: initial;
+	list-style-type: circle;
+  }
