@@ -1,31 +1,34 @@
-## Team Name 
-## Project Name
+## Team Name : Warrior 
+## Project Name : Rappel (django-prototype-1)
 
 
-## Domain
-
-
-
-## Link to your repository
-
-
-## About Project
+## Domain : webdev   
 
 
 
+## Link to your repository : https://github.com/H-N-Sarangi/rappel
+
+
+## About Project : An event hosting app, that keep trak of all your events
 
 
 
 
 
-**Tech stack**:
+
+
+
+**Tech stack**: django ,html, css
 
  
 
-## Use Cases of your project
+## Use Cases of your project : event-hosting, reminderapp
 
 
-## Team Members
+## Team Members : Sibasish Satapathy
+Ganesh Behera
+Bijay Raj Jagat
+Hrud Narayan Sarangi
 
 
-## References
+## References : django doc, stack overflow
