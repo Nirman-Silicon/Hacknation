@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Swiper Article</title>
+    <link rel="stylesheet" href="./aspectstyle1.css" />
+    <link rel="stylesheet" href="./aspectstyle2.css" />
+    <link rel="stylesheet" href="./styleaspect.css" />
+    <script src="./landing.js" defer></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+  </head>
+
+  <body>
+    <dialog class="modal">
+      <div class="wrapper">
+        <section class="post">
+          <div class="createPosthead">
+            <header>Create Post</header>
+            <button id="crossButton">
+              <i class="fa fa-xmark"></i>
+            </button>
+          </div>
+          <form action="#">
+            <div class="content">
+              <img src="./aspectimg/logo.png" alt="logo" />
+              <div class="details">
+                <p>Culture Connect</p>
+                <!-- <div class="privacy">
+                        <i class="fas fa-user-friends"></i>
+                        <span>Friends</span>
+                        <i class="fas fa-caret-down"></i>
+                      </div> -->
+              </div>
+            </div>
+            <textarea
+              placeholder="What's on your mind?"
+              spellcheck="false"
+              required
+            ></textarea>
+            <div class="theme-emoji">
+              <img
+                class="modal-img"
+                src="./aspectimg/theme.svg"
+                alt="theme"
+              />
+              <img src="./aspectimg/smile.svg" alt="smile" />
+            </div>
+            <div class="options">
+              <p>Add to Your Post</p>
+              <ul class="list">
+                <li>
+                  <img
+                    src="./aspectimg/gallery.svg"
+                    alt="gallery"
+                  />
+                </li>
+                <li><img src="./aspectimg/tag.svg" alt="tag" /></li>
+                <li>
+                  <img src="./aspectimg/emoji.svg" alt="emoji" />
+                </li>
+                <li><img src="./aspectimg/mic.svg" alt="mic" /></li>
+                <li>
+                  <img src="./aspectimg/more.svg" alt="more" />
+                </li>
+              </ul>
+            </div>
+            <button id="postButton">Post</button>
+          </form>
+        </section>
+      </div>
+    </dialog>
+
+    <div class="backButton">
+        <button class="btn btn-base back">
+            <a href="./landing.html"><i class="fas fa-left-long"></i></a>
+        </button>
+    </div>
+
+    <main>
+        <div class="container">
+          <div class="left">
+            <div class="sidebar">
+              <div class="menu-items">
+                <div class="menu-item active">
+                  <span><i class="fas fa-house"></i></span>
+                </div>
+                <div class="menu-item">
+                  <span><i class="fas fa-bell"></i></span>
+                </div>
+                <div class="menu-item">
+                  <span><i class="fas fa-clipboard-list"></i></span>
+                </div>
+                <div class="menu-item">
+                  <span><i class="fas fa-hashtag"></i></span>
+                </div>
+              </div>
+            </div>
+            <button class="create btn btn-base" id="create-button">
+              <i class="fas fa-square-plus"></i>
+            </button>
+          </div>
+        </div>
+      </main>
+
+
+    <div class="blog-slider">
+      <div class="blog-slider__wrp swiper-wrapper">
+        <div class="blog-slider__item swiper-slide">
+          <div class="blog-slider__img">
+            <img src="./aspectimg/img1.jpg" alt="" />
+          </div>
+          <div class="blog-slider__content">
+            <span class="blog-slider__code">Rabinder Chahal</span>
+            <div class="blog-slider__title">SARHUL: An Adventure</div>
+            <div class="blog-slider__text">
+              Sarhul is a spring festival in the Indian state of Jharkhand. The
+              festival is celebrated for three days, from the 3rd day of Chaitra
+              month in Sukla Paksh to Chaitra Purnima. In the festival, the
+              village priest Pahan offers sacrifice of flowers, fruit,
+              vermilion, rooster and tapan (liquor) in Sarna to Sun, village
+              deity and ancestor for good fortune of the village. Then the
+              locals dance holding flowers of the sal tree.It is a symbol of
+              commencement of the new year.According to the tradition, it also
+              symbolises marriage between the Earth and the Sun.It is an
+              important festival observed by the Kurukh and Sadan.[5] Among
+              Kurukh it is known as Khaddi (lit. 'flower') in Kurukh.
+            </div>
+            <a href="#" class="blog-slider__button">READ MORE</a>
+          </div>
+        </div>
+        <div class="blog-slider__item swiper-slide">
+          <div class="blog-slider__img">
+            <img src="./aspectimg/img2.jpg" alt="" />
+          </div>
+          <div class="blog-slider__content">
+            <span class="blog-slider__code">Maurya Gupta</span>
+            <div class="blog-slider__title">Karam/Karma</div>
+            <div class="blog-slider__text">
+              The Karam festival is a worship of Karam devta, the god of power,
+              youth and youthfulness. Karam is held on the 11 of moon in Bhadra
+              month. Groups of young villagers go to the jungle and collect
+              wood, fruits and flowers. These are required during the Puja of
+              Karam God. During this period people sing and dance in groups. The
+              entire valley seems to be dancing with the drumbeatth day of the
+              phases. This is one of the rare examples of such a vital and
+              vibrant youth festival in Jharkhand's tribal area.
+            </div>
+            <a href="#" class="blog-slider__button">READ MORE</a>
+          </div>
+        </div>
+
+        <div class="blog-slider__item swiper-slide">
+          <div class="blog-slider__img">
+            <img src="./aspectimg/img3.jpg" alt="" />
+          </div>
+          <div class="blog-slider__content">
+            <span class="blog-slider__code">Sarojini Sharma</span>
+            <div class="blog-slider__title">Tulip Festival- Srinigar</div>
+            <div class="blog-slider__text">
+              In India, there is nothing better than the Tulip Festival in
+              Srinagar, Jammu & Kashmir. March and April are one of the best
+              times to visit Srinagar and this outstanding festival adds more
+              reasons to travel to Kashmir. Each year, this festival drags a
+              huge number of tourists from the country and overseas to visit the
+              Indira Gandhi Memorial Tulip Garden to become the eyewitness to
+              the bursts of colours everywhere.
+            </div>
+            <a href="#" class="blog-slider__button">READ MORE</a>
+          </div>
+        </div>
+      </div>
+      <div class="blog-slider__pagination"></div>
+    </div>
+    <script
+        src="https://kit.fontawesome.com/f334ead1fc.js"
+        crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Landing.css" />
+    <link rel="stylesheet" href="Landing2.css" />
+    <title>CultureConnect - Home</title>
+    <script src="landing.js" defer></script>
+  </head>
+  <body>
+    <dialog class="modal">
+      <div class="wrapper">
+        <section class="post">
+          <div class="createPosthead">
+            <header>Create Post</header>
+            <button id="crossButton">
+              <i class="fa fa-xmark"></i>
+            </button>
+          </div>
+          <form action="#">
+            <div class="content">
+              <img src="landingimg/logo.png" alt="logo" />
+              <div class="details">
+                <p>Culture Connect</p>
+                <!-- <div class="privacy">
+                      <i class="fas fa-user-friends"></i>
+                      <span>Friends</span>
+                      <i class="fas fa-caret-down"></i>
+                    </div> -->
+              </div>
+            </div>
+            <textarea
+              placeholder="What's on your mind?"
+              spellcheck="false"
+              required
+            ></textarea>
+            <div class="theme-emoji">
+              <img class="modal-img" src="theme.svg" alt="theme" />
+              <img src="/landingimg/smile.svg" alt="smile" />
+            </div>
+            <div class="options">
+              <p>Add to Your Post</p>
+              <ul class="list">
+                <li><img src="/landingimg/gallery.svg" alt="gallery" /></li>
+                <li><img src="/landingimg/tag.svg" alt="gallery" /></li>
+                <li><img src="/landingimg/emoji.svg" alt="gallery" /></li>
+                <li><img src="/landingimg/mic.svg" alt="gallery" /></li>
+                <li><img src="/landingimg/more.svg" alt="gallery" /></li>
+              </ul>
+            </div>
+            <button id="postButton">Post</button>
+          </form>
+        </section>
+      </div>
+    </dialog>
+
+    <nav>
+      <div class="container1">
+        <div class="logo">CultureConnect</div>
+        <div class="container">
+          <div class="search-bar">
+            <input type="search" placeholder="Search for content" />
+            <i class="fas fa-magnifying-glass"></i>
+          </div>
+          <div class="profile-photo">
+            <a href="/profile.html">Go to profile</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <div class="container">
+        <div class="left">
+          <div class="sidebar">
+            <div class="menu-items">
+              <div class="menu-item active">
+                <span><i class="fas fa-house"></i></span>
+              </div>
+              <div class="menu-item">
+                <span><i class="fas fa-bell"></i></span>
+              </div>
+              <div class="menu-item">
+                <span><i class="fas fa-clipboard-list"></i></span>
+              </div>
+              <div class="menu-item">
+                <span><i class="fas fa-hashtag"></i></span>
+              </div>
+            </div>
+          </div>
+          <button id="create-button" class="create btn btn-base">
+            <i class="fas fa-square-plus"></i>
+          </button>
+        </div>
+        <div class="middle">
+          <div class="content">
+            <div class="content-text">
+              <h3 class="headline">SARHUL: THE SURREAL FESTIVAL</h3>
+              <span>SOYAM PRABHA MALLICK</span>
+              <br />
+              <div>#sarhul #festivalofflowers #jharkhand</div>
+              <p>
+                I have recently been to Jharghand and I got the priviledge to
+                witness the amazing festival of Sarhul. Sarhul is celebrated by
+                many tribes in Jharkhand, but most notably the Munda, Ho, and
+                Oraon tribes. While nature veneration is an important aspect of
+                the festival, there are also many cultural programmes that are
+                enjoyed along with it. Among these many cultural events is "Baa
+                Porob", the festival of flowers and the worship of the Sal Tree
+                as well as a special Sarhul dance.The festivities around Sarhul
+                are made even more special with the many festive delicacies that
+                are cooked and enjoyed, such as the rice dish called "handia", a
+                baked or dried fish dish called "fish sukha".
+              </p>
+            </div>
+            <div class="content-photo">
+              <img src="/landingimg/sarhul.jpg" alt="" />
+            </div>
+          </div>
+          <div class="bottombar">
+            <div class="icons">
+              <a href="#"><i class="fas fa-share"></i></a>
+              <a href="#"><i class="fas fa-bookmark"></i></a>
+            </div>
+            <div class="aspects btn btn-base">
+              <a href="./aspect.html">ASPECTS</a>
+            </div>
+          </div>
+        </div>
+        <div class="right">
+          <div class="survey">
+            <h3 class="survey-form">SURVEY</h3>
+            <form action="survey-form.php">
+              <div class="name">
+                <label for="name-textbox">Enter Your Name : </label
+                ><input type="text" name="Name" />
+              </div>
+              <div class="location">
+                <label for="location-select">State : </label>
+                <select name="location-select" id="ls">
+                  <option value="None">Choose Location</option>
+                  <option value="Andhra Pradesh">Andhra Pradesh</option>
+                  <option value="Andaman and Nicobar Islands">
+                    Andaman and Nicobar Islands
+                  </option>
+                  <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                  <option value="Assam">Assam</option>
+                  <option value="Bihar">Bihar</option>
+                  <option value="Chandigarh">Chandigarh</option>
+                  <option value="Chhattisgarh">Chhattisgarh</option>
+                  <option value="Dadar and Nagar Haveli">
+                    Dadar and Nagar Haveli
+                  </option>
+                  <option value="Daman and Diu">Daman and Diu</option>
+                  <option value="Delhi">Delhi</option>
+                  <option value="Lakshadweep">Lakshadweep</option>
+                  <option value="Puducherry">Puducherry</option>
+                  <option value="Goa">Goa</option>
+                  <option value="Gujarat">Gujarat</option>
+                  <option value="Haryana">Haryana</option>
+                  <option value="Himachal Pradesh">Himachal Pradesh</option>
+                  <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+                  <option value="Jharkhand">Jharkhand</option>
+                  <option value="Karnataka">Karnataka</option>
+                  <option value="Kerala">Kerala</option>
+                  <option value="Madhya Pradesh">Madhya Pradesh</option>
+                  <option value="Maharashtra">Maharashtra</option>
+                  <option value="Manipur">Manipur</option>
+                  <option value="Meghalaya">Meghalaya</option>
+                  <option value="Mizoram">Mizoram</option>
+                  <option value="Nagaland">Nagaland</option>
+                  <option value="Odisha">Odisha</option>
+                  <option value="Punjab">Punjab</option>
+                  <option value="Rajasthan">Rajasthan</option>
+                  <option value="Sikkim">Sikkim</option>
+                  <option value="Tamil Nadu">Tamil Nadu</option>
+                  <option value="Telangana">Telangana</option>
+                  <option value="Tripura">Tripura</option>
+                  <option value="Uttar Pradesh">Uttar Pradesh</option>
+                  <option value="Uttarakhand">Uttarakhand</option>
+                  <option value="West Bengal">West Bengal</option>
+                </select>
+              </div>
+              <div class="opinion">
+                <label for="opinion-bar">
+                  Your opinion really matters to us. We would like to know how
+                  much of this post's content is relevant in accordance with
+                  your location. </label
+                ><br />
+                <div class="meter">
+                  <input
+                    type="range"
+                    id="opinion-bar"
+                    name="range-slider"
+                    list="values"
+                    min="1"
+                    max="5"
+                    step="1"
+                  />
+                  <datalist id="values">
+                    <option value="0" label="1"></option>
+                    <option value="25" label="2"></option>
+                    <option value="50" label="3"></option>
+                    <option value="75" label="4"></option>
+                    <option value="100" label="5"></option>
+                  </datalist>
+                </div>
+              </div>
+              <!-- <div class="tale">
+                                  <label for="indian-tale"> Your favorite Indian culture that inspires you? </label>
+                                  <input type="text" name="tale">
+                              </div> -->
+              <div class="submit">
+                <input class="btn btn-base" type="submit" value="Submit" />
+              </div>
+            </form>
+            <div class="link">
+              <p>
+                We would like you to share this form attached below as much as
+                you can so that everyone gets a chance to review this and give
+                their view
+              </p>
+              <br />
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script
+    src="https://kit.fontawesome.com/f334ead1fc.js"
+    crossorigin="anonymous"
+  ></script>
+  <script src="https://unpkg.com/infinite-scroll@4/dist/infinite-scroll.pkgd.min.js"></script>
+</html>
