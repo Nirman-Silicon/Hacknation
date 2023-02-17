@@ -1,4 +1,4 @@
-## Team Name 
+## Team Name: Team DedSec
 ## Project Name
 
 
@@ -7,6 +7,7 @@
 
 
 ## Link to your repository
+https://github.com/Manas-22/Team-Dedsec.git
 
 
 ## About Project
