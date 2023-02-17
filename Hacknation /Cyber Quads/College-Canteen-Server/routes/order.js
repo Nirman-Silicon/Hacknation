@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const Cart = require('../models/Cart');
-const fetchUser = require("../middlewere/fetchUserPassport");
+const fetchUser = require("../middlewere/fetchUser");
 const { body, validationResult } = require('express-validator');
 const Order = require('../models/Order');
 
