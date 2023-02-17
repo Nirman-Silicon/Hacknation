@@ -6,7 +6,7 @@
 
 
 
-## Link to your repository : https://github.com/chinmayapradhan117/HackNation1
+## Link to your repository : https://github.com/chinmayapradhan117/Hackathon
 
 
 ## About Project
