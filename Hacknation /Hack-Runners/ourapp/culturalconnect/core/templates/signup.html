@@ -1,0 +1,71 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="{% static 'style2.css' %}">
+    <title>Sign Up</title>
+</head>
+
+<body>
+    <header class="showcase">
+
+
+        <div class="logo">
+            <img src="{% static 'logo.png' %}">
+        </div>
+        <div>
+            <style>
+                h5{
+                    coolor: red;
+                }
+            </style>
+            {% for message in messages %}
+            <h5>{{message}}</h5>
+            {% endfor %}
+        </div>
+
+
+        <div class="showcase-content">
+            <div class="form">
+                <form action=" " method="POST">
+                    {% csrf_token %}
+                    <h1>Sign Up</h1>
+                    <div class="info">
+                    <input type="text" name="username" placeholder="Username" class="bg-gray-200 mb-2 shadow-none  dark:bg-gray-800" style="border: 1px solid #d3d5d8 !important;">
+                    <input type="email" name="email" placeholder="Email" class="bg-gray-200 mb-2 shadow-none  dark:bg-gray-800" style="border: 1px solid #d3d5d8 !important;">
+                    <input type="password" name="password" placeholder="Password" class="bg-gray-200 mb-2 shadow-none  dark:bg-gray-800" style="border: 1px solid #d3d5d8 !important;">
+                    <input type="password" name="password2" placeholder="Confirm Password" class="bg-gray-200 mb-2 shadow-none  dark:bg-gray-800" style="border: 1px solid #d3d5d8 !important;">
+                    </div>
+
+
+                    <div class="btn">
+                        <button class="btn-primary" type="submit">Sign Up</button>
+                    </div>
+                    <div class="help">
+                        <div>
+                            <input value="true" type="checkbox"><label>Remember me</label>
+                        </div>
+
+
+                    </div>
+
+                </form>
+
+            </div>
+            <div class="signin">
+                <a href="/signin" >Sign in now</a>
+            </div>
+
+        </div>
+
+    </header>
+
+
+</body>
+
+</html>

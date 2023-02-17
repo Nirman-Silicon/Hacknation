@@ -1,0 +1,137 @@
+{% load static %}
+
+<!-- Profile.html -->
+
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Profile Page</title>
+  <link rel='stylesheet' href='https://unicons.iconscout.com/release/v3.0.0/css/line.css'>
+<link rel='stylesheet' href='https://unicons.iconscout.com/release/v3.0.0/css/solid.css'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap'>
+<link rel="stylesheet" href="{% static 'css/styles-profile.css' %}">
+<script  src="{% static 'js/profile.js' %}" defer></script>
+
+</head>
+<body>
+
+<nav id="navbar">
+    <div class="navbar-inner">
+        <div class="navbar-left flexbox-left">
+            <div id="nav-button">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div class="navbar-center flexbox-left">
+            <img src="{% static 'logo.png' %}" alt="">
+            <!-- <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 766.15 715.7">
+                <defs>
+                    <style>.cls-1{fill:var(--primary);}.cls-2{fill:var(--primary);}.cls-3{fill:var(--primary);}</style>
+                </defs>
+                <title>Icon</title>
+                <polygon class="cls-1" points="0 684.86 0 414.84 136.41 549.85 0 684.86"/>
+                <polygon class="cls-2" points="0 331.69 0 0 547.52 549.85 382.29 715.7 0 331.69"/>
+                <polygon class="cls-1" points="766.15 684.86 766.15 414.84 631.61 549.85 766.15 684.86"/>
+                <polygon class="cls-3" points="425.12 343.83 766.15 4.67 766.15 333.56 588.63 508.27 425.12 343.83"/>
+            </svg> -->
+        </div>
+        <div class="navbar-right flexbox-right">
+            <a class="profile-picture">
+                <img src="{% static 'IMG_20221116_152357_330-modified.png' %}" width="100%" height="100%" alt="">
+            </a>
+        </div>
+    </div>
+</nav>
+<div id="dropdownmenu" class="flexbox-col">
+    <div class='menu-item'><a><i class='uil uil-user'></i> Username</a></div>
+    <div id="switch" class="menu-item"><a><i class="uil uil-sunset"></i> Light Mode</a></div>
+    <div class="menu-item"><a href='logout'><i class="uil uil-arrow-right"></i> Logout</a></div>
+</div>
+<main class="flexbox-col">
+
+    <!-- <div class="profile-header-wrapper flexbox">
+        <form class="profile-header flexbox" method="post" action="" enctype="multipart/form-data">
+            <div class="profile-header-img-wrapper">
+                <fieldset class="profile-pic-upload-input">
+                    <input type="file" name="image" id="choose-profile-header" value="Velg bilde" accept="images">
+                </fieldset>
+                <a><img class="profile-header-img" alt="" src="https://i.imgur.com/KBWXjaR.jpg"></a>
+            </div>
+            <div class="profile-header-overlay"></div>
+            <img class="profile-header-img-back" alt="" src="https://i.imgur.com/KBWXjaR.jpg">
+        </form> -->
+        <div class="profile-header-note flexbox">
+            <p>Upload Photo</p>
+        </div>
+    </div>
+
+    <div class="profile-top">
+
+        <div class="profile-left">
+            <form class="profile-pic-upload" method="post" action="" enctype="multipart/form-data">
+                <div class="profile-pic-wrapper">
+                    <fieldset class="profile-pic-upload-input">
+                        <input type="file" name="image" id="choose-profile-picture" value="Velg bilde" accept="images">
+                    </fieldset>
+                    <a class="profile-pic"><img src="{% static 'IMG_20221116_152357_330-modified.png' %}" alt=""></a>
+                    <div class="profile-pic-note flexbox">
+                        <p>Upload Photo</p>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <div class="profile-right flexbox-start-col">
+            <div class="profile-right-top">
+                <h3 class="profile-name">Soyam Prabha Mallick</h3>
+            </div>
+            <div class="profile-right-bottom">
+                <div class="profile-bio-wrapper">
+                    <p class="profile-bio">
+                        <i class="fa-sharp fa-solid fa-location-dot"></i> Bhubaneswar
+                        <br/>
+                        <i class="fa-sharp fa-solid fa-user"></i> Bio
+                        <br/>
+                        Love to talk about culture & traditions of India
+                        <br/>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="profile-page flexbox-col">
+        <div class="profile-page-nav flexbox">
+            <div class="profile-page-block">
+                <a class="postbutton"><i class="uil uil-chat"></i> Posts</a>
+            </div>
+            <div class="profile-page-block">
+                <a class="activitiesbutton"><i class="uil uil-apps"></i> Activities</a>
+            </div>
+            <div class="profile-page-block">
+                <a class="achievementsbutton"><i class="fa-sharp fa-solid fa-award"></i> Achievements</a>
+            </div>
+        </div>
+        <div class="profile-page-inner">
+            
+			</div>
+    </div>
+
+    <footer id="footer">
+        <img src="{% static 'logo.png' %}" alt="">
+    </footer>
+
+</main>
+<!-- partial -->
+  <script src='https://code.jquery.com/jquery-3.5.1.js'></script>
+<script src='https://code.jquery.com/ui/1.12.1/jquery-ui.js'></script>
+<script src='https://unicons.iconscout.com/release/v3.0.0/script/monochrome/bundle.js'></script>
+<script src="https://kit.fontawesome.com/f334ead1fc.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
