@@ -1,0 +1,86 @@
+.login_container{
+    background-image: linear-gradient(320deg, #272f2f,#3d313d);
+    top: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    width: 100%;
+    overflow: unset;
+}
+
+.login{
+    position: fixed;
+    top:20%;
+    height: 50vh;
+    width: 50vh;
+    background: #ffffff86;
+    border-radius: 30px;
+    box-shadow: 10px 10px 23px 0px rgba(0, 0, 0, 0.30);
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.login div{
+    margin: 5px;
+}
+
+.login input{
+    margin: 10px 0px;
+    border: 0px;
+    border-radius: 5px;
+    height: 1.3rem;
+}
+
+.login label{
+    margin: 10px 0px;
+    translate: 1rem;
+    /* translate: top(); */
+}
+
+button{
+    font-size: large;
+    padding: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 5px;
+    border: 0px;
+    color: #ffffff;
+    background-color: rgb(80, 80, 80);
+}
+
+.signup{
+    text-decoration: none;
+}
+
+.signup:hover{
+    text-decoration: underline;
+}
+
+.User_ID label{
+    display: block;
+    position: absolute;
+    top: 4.2rem;
+    visibility: hidden;
+}
+
+/* .login input[type=email]:focus{
+    background-color: aquamarine;
+    visibility: visible;
+} */
+
+input:focus ~ .enter_email{
+    visibility: visible;
+    transform: translate(0%, -80%);
+    color: rgb(0, 0, 0);
+}
+
+.enter_email{
+    color: #ffffff86;
+    transition: 0.3s;
+}
