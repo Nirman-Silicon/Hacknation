@@ -1,31 +1,36 @@
-## Team Name 
-## Project Name
+## Team_Blitz
+## Water usage tracker
 
 
-## Domain
-
-
-
-## Link to your repository
-
-
-## About Project
+## software
 
 
 
+## https://github.com/chandrachurd2004/hacknation_team_blitz.git
+
+
+## We are planing for sustainable development and conserve the usage of water in household
 
 
 
 
 
-**Tech stack**:
+
+
+
+**Tech stack**: Google
 
  
 
-## Use Cases of your project
+## Water managment and waste managment in household 
 
 
-## Team Members
+## Team_Meamber
+## Balaji Arayan Singh
+## Chandra Churd Bharati
+## Anish Kumar
+## Sumaiya Kalim
 
 
-## References
+
+## Javatpoint
