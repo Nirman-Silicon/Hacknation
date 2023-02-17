@@ -18,7 +18,7 @@ Street light management
 ## About Project
 Our  module will use a current sensor, NodeMCU with Wi-Fi, and MQTT and placed before and after an LED panel to detect malfunctioning  if we found any error the data will be sent to the company for analysis via a local server
 
-
+adsc
 
 
 
