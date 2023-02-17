@@ -22,7 +22,7 @@ https://github.com/Sarans13/final-upload.git
 
 
 **Tech stack**:
-HTML, CSS, JS, EXPRESS JS, MONGODB
+HTML, CSS, JS, NODE JS, EXPRESS JS, MONGODB
  
 
 ## Use Cases of your project
