@@ -1,16 +1,18 @@
+
+## Team Name The tech squirtles
+## Project Name bizwiz
+
+
+## Domain fintech
+
+
+
+## Link to your repository https://github.com/sabyasachimohantty/BizWiz.git
+
 ## Team Name
 Aurora
 ## Project Name
 Street light management
-
-
-## Domain
-none
-
-
-
-## Link to your repository
-https://github.com/RipperKrish/Hacknation
 
 
 ## About Project
@@ -35,11 +37,15 @@ C , C++ , Arduino IDE
 4.Better Citizen Engagement: This can improve the transparency of the maintenance process and provide citizens with greater visibility into how the lighting infrastructure is being maintained.
 
 
+
+## Team Members sabyasachi moohanty,sahil mohapatra, suvesh samantray
+=======
 ## Team Members
 Krishna Pandey,
 Adarsh Kumar,
 Aman Kumar,
 Niharika Anand
+
 
 
 ## References
