@@ -1,0 +1,9 @@
+/ardupilot
+ardupilot
+drone-delivery/include
+drone-delivery/Lib
+drone-delivery/lib
+drone-delivery/lib64
+drone-delivery/bin
+drone-delivery/Scripts
+.drone-delivery-env/
