@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgb(255,255,255);
+    background: linear-gradient(117deg, rgba(255,255,255,1) 0%, rgba(159,76,104,1) 100%);
+}
+
+.container {
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 4rem;
+}
+
+.container h1 {
+    font-size: 50px
+}
+
+.about{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    justify-content: space-around;
+}
+
+.about .right .image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin: 2rem 0;
+    border-radius: 20px;
+}
+
+.about .right .image img{
+    height: 60vh;
+}
+
+.mission{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    justify-content: space-around;
+}
+
+.mission .left .image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin: 2rem 0;
+    border-radius: 20px;
+}
+
+.mission .left .image img{
+    height: 60vh;
+}
+
+.about .left h1 {
+    text-align: center;
+    color: #180008;
+    margin: 0 0 10px 0;
+}
+
+.about .left p {
+    font-size: 1rem;
+    margin: 40px auto;
+    width: 80%
+}
+
+.about .left hr {
+    width: 20%;
+    border-top: 2px solid #000;
+    border-bottom: none;
+}
+
+.mission .right h1 {
+    text-align: center;
+    color: #180008;
+    margin: 0 0 20px 0;
+}
+
+.mission .right p {
+    font-size: 1rem;
+    margin: 40px auto;
+    width: 80%
+}
+
+.mission .right hr {
+    width: 35%;
+    border-top: 2px solid #000;
+    border-bottom: none;
+}
+
+.cta {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.cta a {
+    text-decoration: none;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.9rem 1.9rem;
+    color: #fff !important;
+    background-color: #180008;
+    border-radius: 16px;
+    text-transform: capitalize;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #d793aa;
+    transform: scale(1) !important;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: #25000b;
+}
+
+footer p {
+    color: #fff;
+    text-align: center;
+    padding: 0 2%;
+}
